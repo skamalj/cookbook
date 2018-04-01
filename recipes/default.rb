@@ -4,6 +4,6 @@ package 'Install Apache' do
 end
 
 service 'Start Apache' do
-        service_name 'apache'
+        service_name 'apache2'
 	action [:enable, :start]
 end
